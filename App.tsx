@@ -1,14 +1,9 @@
-import React from 'react';
-import {SafeAreaView, View, Text} from 'react-native';
+import 'react-native-gesture-handler';
+import * as React from 'react';
+import {NavigationContainer} from '@react-navigation/native';
 
-const App = () => {
+export default function App() {
   return (
-    <SafeAreaView>
-      <View>
-        <Text>...Start</Text>
-      </View>
-    </SafeAreaView>
+    <NavigationContainer>{/* Rest of your app code */}</NavigationContainer>
   );
-};
-
-export default App;
+}
