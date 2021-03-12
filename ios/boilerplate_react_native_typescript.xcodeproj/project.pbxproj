@@ -194,7 +194,6 @@
 				C19EDA5768BF364041A742C1 /* Pods-boilerplate_react_native_typescript-tvOSTests.debug.xcconfig */,
 				69EAAD6926BE51D2657513A4 /* Pods-boilerplate_react_native_typescript-tvOSTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
