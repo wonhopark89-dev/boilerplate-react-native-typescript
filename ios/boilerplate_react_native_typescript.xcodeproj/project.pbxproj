@@ -20,6 +20,9 @@
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		925D3A85DB14246D0828313C /* libPods-boilerplate_react_native_typescript-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A59C9A04FC3E4805189AE5CA /* libPods-boilerplate_react_native_typescript-tvOS.a */; };
 		C7457721C233C1A4AF40B0CA /* libPods-boilerplate_react_native_typescript-boilerplate_react_native_typescriptTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B58685EE3407AEF9272AB05 /* libPods-boilerplate_react_native_typescript-boilerplate_react_native_typescriptTests.a */; };
+		6D642C9E690C409A908A4890 /* SF-Pro-Text-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = A963F768758445A1A403B05B /* SF-Pro-Text-Bold.otf */; };
+		D6251A06985B4E2F9162D23F /* SF-Pro-Text-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = B8B89F022FFA40868452D117 /* SF-Pro-Text-Regular.otf */; };
+		EE76E551A8044B44BE0A714A /* SF-Pro-Text-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3C4EE7867BE6480298403A9C /* SF-Pro-Text-Semibold.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +70,9 @@
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
 		FD7803B992ACC5FCF8106262 /* libPods-boilerplate_react_native_typescript.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-boilerplate_react_native_typescript.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A963F768758445A1A403B05B /* SF-Pro-Text-Bold.otf */ = {isa = PBXFileReference; name = "SF-Pro-Text-Bold.otf"; path = "../assets/fonts/SF-Pro-Text-Bold.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		B8B89F022FFA40868452D117 /* SF-Pro-Text-Regular.otf */ = {isa = PBXFileReference; name = "SF-Pro-Text-Regular.otf"; path = "../assets/fonts/SF-Pro-Text-Regular.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		3C4EE7867BE6480298403A9C /* SF-Pro-Text-Semibold.otf */ = {isa = PBXFileReference; name = "SF-Pro-Text-Semibold.otf"; path = "../assets/fonts/SF-Pro-Text-Semibold.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -165,6 +171,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				EAB6F14FF46849FC66EF6A75 /* Pods */,
+				08671B98DF7A48A1B0C57491 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -196,6 +203,17 @@
 			);
 			path = Pods;
 			sourceTree = "<group>";
+		};
+		08671B98DF7A48A1B0C57491 /* Resources */ = {
+			isa = "PBXGroup";
+			children = (
+				A963F768758445A1A403B05B /* SF-Pro-Text-Bold.otf */,
+				B8B89F022FFA40868452D117 /* SF-Pro-Text-Regular.otf */,
+				3C4EE7867BE6480298403A9C /* SF-Pro-Text-Semibold.otf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+			path = "";
 		};
 /* End PBXGroup section */
 
@@ -341,6 +359,9 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				6D642C9E690C409A908A4890 /* SF-Pro-Text-Bold.otf in Resources */,
+				D6251A06985B4E2F9162D23F /* SF-Pro-Text-Regular.otf in Resources */,
+				EE76E551A8044B44BE0A714A /* SF-Pro-Text-Semibold.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,5 +1,5 @@
 import * as React from 'react';
-import {TouchableOpacity, View, Text} from 'react-native';
+import {TouchableOpacity, View, Text, StyleSheet} from 'react-native';
 import {NativeStackNavigationProp} from 'react-native-screens/native-stack';
 import {RootStackParamList} from '~/RootStackNavigator';
 
@@ -12,7 +12,11 @@ const RootScreen = ({navigation}: Props) => {
     <View style={{flex: 1, backgroundColor: 'pink', justifyContent: 'center'}}>
       <TouchableOpacity onPress={() => navigation.navigate('FashionRootScreen')}>
         <View style={{padding: 20}}>
-          <Text>Fashion</Text>
+          <>
+            <Text>Fashion </Text>
+            <Text style={styles.bold}>Fashion</Text>
+            <Text style={styles.regular}>Fashion</Text>
+          </>
         </View>
       </TouchableOpacity>
     </View>
@@ -20,3 +24,12 @@ const RootScreen = ({navigation}: Props) => {
 };
 
 export default RootScreen;
+
+const styles = StyleSheet.create({
+  bold: {
+    fontFamily: 'SF Pro Text Bold'
+  },
+  regular: {
+    fontFamily: 'SF Pro Text Semibold'
+  }
+});
