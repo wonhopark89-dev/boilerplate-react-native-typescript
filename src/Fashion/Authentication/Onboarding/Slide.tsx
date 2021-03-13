@@ -6,7 +6,6 @@ export const SLIDE_HEIGHT = 0.6 * height;
 const styles = StyleSheet.create({
   container: {width},
   titleContainer: {
-    backgroundColor: 'red',
     height: 100,
     justifyContent: 'center',
     transform: [{translateY: (SLIDE_HEIGHT - 100) / 2}]
