@@ -5,4 +5,5 @@ adb reverse --remove-all
 echo ">>>>...adb reverse port"
 adb reverse tcp:8081 tcp:8081
 echo ">>>>...start react-native"
-npm start -- --reset-cache
+# npm start -- --reset-cache
+npm start

@@ -1,9 +1,14 @@
 import React, {useRef} from 'react';
-import {Dimensions, StyleSheet, View} from 'react-native';
+import {Dimensions, StyleSheet, View, Text} from 'react-native';
 import Slide, {SLIDE_HEIGHT} from '~/Fashion/Authentication/Onboarding/Slide';
-import Animated, {divide, interpolateColor, useAnimatedScrollHandler, useSharedValue, multiply} from 'react-native-reanimated';
+import Animated, {
+  interpolateColor,
+  useAnimatedScrollHandler,
+  useSharedValue,
+  useAnimatedStyle,
+  useDerivedValue
+} from 'react-native-reanimated';
 import Subslide from './Subslide';
-import Dot from './Dot';
 
 // TODO : redash 옵션 다시 구현하기 ( 모듈 못찾는 에러 )
 const BOARDER_RADIUS = 75;
@@ -49,15 +54,6 @@ const slides = [
   }
 ];
 const Onboarding = () => {
-  // const x = useValue(0);
-  // TODO : useScrollEvent ?
-  // const onScroll = onScrollEvent({x});
-
-  // 4개 화면에 대한 배경색이 자연스럽게 바뀌도록, 값은 너비기준
-  // const backgroundColor = interpolateColor(x, {
-  //   inputRange: [0, width, width * 2, width * 3],
-  //   outputRange: ['#BFEAF5', '#BEECC4', '#FFE4D9', '#FFDDDD']
-  // });
   const scroll = useRef<Animated.ScrollView>(null);
   const x = useSharedValue(0);
   const onScroll = useAnimatedScrollHandler({
@@ -66,15 +62,20 @@ const Onboarding = () => {
     }
   });
 
-  const backgroundColor = interpolateColor(
-    0,
-    slides.map((_, i) => i * width),
-    slides.map((slide) => slide.color)
+  const backgroundColor = useDerivedValue(() =>
+    interpolateColor(
+      x.value,
+      slides.map((_, i) => i * width),
+      slides.map((slide) => slide.color)
+    )
   );
+
+  const slider = useAnimatedStyle(() => ({backgroundColor: backgroundColor.value}));
+  const footerStyle = useAnimatedStyle(() => ({transform: [{translateX: -x.value}]}));
 
   return (
     <View style={styles.container}>
-      <Animated.View style={[styles.slider, {backgroundColor}]}>
+      <Animated.View style={[styles.slider, slider]}>
         <Animated.ScrollView
           ref={scroll}
           horizontal={true}
@@ -90,29 +91,15 @@ const Onboarding = () => {
         </Animated.ScrollView>
       </Animated.View>
       {/*하단*/}
-      <View style={styles.footer}>
-        <Animated.View style={{...StyleSheet.absoluteFillObject, backgroundColor}} />
+      <Animated.View style={[styles.footer]}>
         <View style={styles.footerContent}>
-          <View style={styles.pagination}>
-            {slides.map((_, index) => (
-              <Dot key={index} currentIndex={divide(x.value, width)} {...{index}} />
-            ))}
-          </View>
-          <Animated.View
-            style={{
-              flex: 1,
-              flexDirection: 'row',
-              width: width * slides.length,
-              transform: [{translateX: multiply(x.value, -1)}]
-            }}>
+          <Animated.View style={[{flex: 1, flexDirection: 'row', width: width * slides.length}, footerStyle]}>
             {slides.map(({subtitle, description}, index) => {
               const last = index === slides.length - 1;
-              console.log(`index ${last}`);
               return (
                 <Subslide
                   key={index}
                   onPress={() => {
-                    console.log(`width : ${width}, index : ${index}`);
                     if (last) {
                       console.log('last~');
                     } else {
@@ -125,7 +112,7 @@ const Onboarding = () => {
             })}
           </Animated.View>
         </View>
-      </View>
+      </Animated.View>
     </View>
   );
 };
