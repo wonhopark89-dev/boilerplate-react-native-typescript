@@ -11,10 +11,11 @@ import Animated, {
   useSharedValue
 } from 'react-native-reanimated';
 import Subslide from './Subslide';
+import {Routes, StackNavigationProps} from '~/Fashion/Authentication/AuthenticationNavigator';
 
 // TODO : redash 옵션 다시 구현하기 ( 모듈 못찾는 에러 )
 const BOARDER_RADIUS = 75;
-const {width, height} = Dimensions.get('window');
+const {width} = Dimensions.get('window');
 const styles = StyleSheet.create({
   container: {flex: 1, backgroundColor: 'white'},
   slider: {height: SLIDE_HEIGHT, borderBottomRightRadius: BOARDER_RADIUS},
@@ -78,7 +79,7 @@ const slides = [
     }
   }
 ];
-const Onboarding = () => {
+const Onboarding = ({navigation}: StackNavigationProps<Routes>) => {
   const scroll = useRef<Animated.ScrollView>(null);
   const x = useSharedValue(0);
   const onScroll = useAnimatedScrollHandler({
@@ -120,8 +121,8 @@ const Onboarding = () => {
           bounces={false}
           scrollEventThrottle={16}
           onScroll={onScroll}>
-          {slides.map(({title, picture}, index) => (
-            <Slide key={index} right={!!(index % 2)} {...{title, picture}} />
+          {slides.map(({title}, index) => (
+            <Slide key={index} right={!!(index % 2)} {...{title}} />
           ))}
         </Animated.ScrollView>
       </Animated.View>
@@ -136,8 +137,9 @@ const Onboarding = () => {
                   key={index}
                   onPress={() => {
                     if (last) {
-                      console.log('last~');
+                      navigation.navigate('Welcome');
                     } else {
+                      // TODO: improve
                       scroll.current?.getNode().scrollTo({x: width * (index + 1), animated: true});
                     }
                   }}
