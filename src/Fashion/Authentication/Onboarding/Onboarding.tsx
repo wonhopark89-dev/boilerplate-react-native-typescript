@@ -1,5 +1,5 @@
 import React, {useRef} from 'react';
-import {Dimensions, StyleSheet, View, Text} from 'react-native';
+import {Dimensions, StyleSheet, View, Text, Image} from 'react-native';
 import Slide, {SLIDE_HEIGHT} from '~/Fashion/Authentication/Onboarding/Slide';
 import Animated, {
   interpolateColor,
@@ -32,25 +32,29 @@ const slides = [
     title: 'Relaxed',
     color: '#BFEAF5',
     subtitle: 'Find Your Outfits',
-    description: 'Confused about your outfit? Don’t worry! Find the best outfit here!'
+    description: 'Confused about your outfit? Don’t worry! Find the best outfit here!',
+    picture: require('../assets/1.png')
   },
   {
     title: 'Playful',
     color: '#BEECC4',
     subtitle: 'Hear it First, Wear it First',
-    description: 'Hating the clothes in your wardrobe? Explore hundreds of outfit ideas'
+    description: 'Hating the clothes in your wardrobe? Explore hundreds of outfit ideas',
+    picture: require('../assets/2.png')
   },
   {
     title: 'Excentric',
     color: '#FFE4D9',
     subtitle: 'Your Style, Your Way',
-    description: ' Create your individual & unique style and look amazing everyday'
+    description: ' Create your individual & unique style and look amazing everyday',
+    picture: require('../assets/3.png')
   },
   {
     title: 'Funky',
     color: '#FFDDDD',
     subtitle: 'Look Good, Feel Good',
-    description: 'Discover the latest trends in fashion and explore your personality'
+    description: 'Discover the latest trends in fashion and explore your personality',
+    picture: require('../assets/4.png')
   }
 ];
 const Onboarding = () => {
@@ -85,8 +89,8 @@ const Onboarding = () => {
           bounces={false}
           scrollEventThrottle={16}
           onScroll={onScroll}>
-          {slides.map(({title}, index) => (
-            <Slide key={index} right={!!(index % 2)} {...{title}} />
+          {slides.map(({title, picture}, index) => (
+            <Slide key={index} right={!!(index % 2)} {...{title, picture}} />
           ))}
         </Animated.ScrollView>
       </Animated.View>
