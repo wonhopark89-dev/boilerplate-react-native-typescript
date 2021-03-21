@@ -56,16 +56,14 @@ const Welcome = ({navigation}: StackNavigationProps<Routes, 'Welcome'>) => {
         <Text style={styles.subtitle}>Let’s get started</Text>
         <Text style={styles.description}>Login to your account below or signup for an amazing experience</Text>
         <View style={{paddingVertical: 10}}>
-          <Button variant="primary" label="Have an account? Login" />
+          <Button onPress={() => navigation.navigate('Login')} variant="primary" label="Have an account? Login" />
         </View>
         <View style={{paddingVertical: 10}}>
-          <Button label="Join us, it’s Free" />
+          <Button label="Join us, it’s Free" onPress={() => true} />
         </View>
         <View style={{paddingVertical: 10}}>
           <BorderlessButton>
-            <Text variant="button" color="secondary">
-              Forgot password?
-            </Text>
+            <Text>Forgot password?</Text>
           </BorderlessButton>
         </View>
       </View>
