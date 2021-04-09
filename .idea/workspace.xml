@@ -19,7 +19,69 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="49833352-f15f-40d9-83dc-fbc465c4ff24" name="Default Changelist" comment="" />
+    <list default="true" id="49833352-f15f-40d9-83dc-fbc465c4ff24" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/snippets/.buckconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snippets/.eslintrc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snippets/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snippets/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snippets/.prettierrc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snippets/.watchmanconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snippets/App.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snippets/__tests__/App-test.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snippets/android/app/_BUCK" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snippets/android/app/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snippets/android/app/build_defs.bzl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snippets/android/app/debug.keystore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snippets/android/app/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snippets/android/app/src/debug/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snippets/android/app/src/debug/java/com/snippets/ReactNativeFlipper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snippets/android/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snippets/android/app/src/main/java/com/snippets/MainActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snippets/android/app/src/main/java/com/snippets/MainApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snippets/android/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snippets/android/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snippets/android/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snippets/android/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snippets/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snippets/android/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snippets/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snippets/android/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snippets/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snippets/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snippets/android/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snippets/android/app/src/main/res/values/styles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snippets/android/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snippets/android/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snippets/android/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snippets/android/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snippets/android/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snippets/android/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snippets/android/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snippets/app.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snippets/babel.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snippets/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snippets/ios/Podfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snippets/ios/Podfile.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snippets/ios/snippets-tvOS/Info.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snippets/ios/snippets-tvOSTests/Info.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snippets/ios/snippets.xcodeproj/project.pbxproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snippets/ios/snippets.xcodeproj/xcshareddata/xcschemes/snippets-tvOS.xcscheme" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snippets/ios/snippets.xcodeproj/xcshareddata/xcschemes/snippets.xcscheme" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snippets/ios/snippets.xcworkspace/contents.xcworkspacedata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snippets/ios/snippets/AppDelegate.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snippets/ios/snippets/AppDelegate.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snippets/ios/snippets/Images.xcassets/AppIcon.appiconset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snippets/ios/snippets/Images.xcassets/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snippets/ios/snippets/Info.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snippets/ios/snippets/LaunchScreen.storyboard" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snippets/ios/snippets/main.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snippets/ios/snippetsTests/Info.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snippets/ios/snippetsTests/snippetsTests.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snippets/metro.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snippets/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snippets/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snippets/yarn.lock" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -103,6 +165,7 @@
       <workItem from="1616307884714" duration="4337000" />
       <workItem from="1616335875446" duration="1442000" />
       <workItem from="1616417469065" duration="814000" />
+      <workItem from="1617987392104" duration="4000" />
     </task>
     <servers />
   </component>
