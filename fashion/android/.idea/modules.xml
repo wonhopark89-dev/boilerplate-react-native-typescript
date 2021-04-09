@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/app.iml" group="boilerplate_react_native_typescript/app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/boilerplate_react_native_typescript.iml" filepath="$PROJECT_DIR$/.idea/modules/boilerplate_react_native_typescript.iml" group="boilerplate_react_native_typescript" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1291087167/react-native-community_masked-view.iml" filepath="$PROJECT_DIR$/.idea/modules/1291087167/react-native-community_masked-view.iml" group="boilerplate_react_native_typescript/react-native-community_masked-view" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/21639288/react-native-gesture-handler.iml" filepath="$PROJECT_DIR$/.idea/modules/21639288/react-native-gesture-handler.iml" group="boilerplate_react_native_typescript/react-native-gesture-handler" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/827064996/react-native-reanimated.iml" filepath="$PROJECT_DIR$/.idea/modules/827064996/react-native-reanimated.iml" group="boilerplate_react_native_typescript/react-native-reanimated" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-28112159/react-native-safe-area-context.iml" filepath="$PROJECT_DIR$/.idea/modules/-28112159/react-native-safe-area-context.iml" group="boilerplate_react_native_typescript/react-native-safe-area-context" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-669818823/react-native-screens.iml" filepath="$PROJECT_DIR$/.idea/modules/-669818823/react-native-screens.iml" group="boilerplate_react_native_typescript/react-native-screens" />
+    </modules>
+  </component>
+</project>

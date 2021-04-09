@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="49833352-f15f-40d9-83dc-fbc465c4ff24" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+        <option value="TypeScript JSX File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="ProjectId" id="1petw7mwMx7E39WiDkChzgYZ2G2" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Fashion/Authentication/components/assets/patterns" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
+    <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="prettierjs.PrettierConfiguration.NodeInterpreter" value="/usr/local/bin/node" />
+    <property name="prettierjs.PrettierConfiguration.Package" value="$PROJECT_DIR$/node_modules/prettier" />
+    <property name="run.prettier.on.save" value="true" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
+    <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/Fashion/Authentication/Onboarding" />
+      <recent name="$PROJECT_DIR$/src/Fashion/lib/v1" />
+      <recent name="$PROJECT_DIR$/src/Fashion" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/Fashion/Authentication/components/assets/patterns" />
+      <recent name="$PROJECT_DIR$/src/Fashion/Authentication" />
+      <recent name="$PROJECT_DIR$/src/Fashion/lib" />
+      <recent name="$PROJECT_DIR$/assets/fonts" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="49833352-f15f-40d9-83dc-fbc465c4ff24" name="Default Changelist" comment="" />
+      <created>1615555619043</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1615555619043</updated>
+      <workItem from="1615555621528" duration="909000" />
+      <workItem from="1615556609584" duration="7473000" />
+      <workItem from="1615566985017" duration="4487000" />
+      <workItem from="1615604469186" duration="3179000" />
+      <workItem from="1615612584794" duration="7897000" />
+      <workItem from="1615630483941" duration="5411000" />
+      <workItem from="1615640389160" duration="1116000" />
+      <workItem from="1615707567869" duration="554000" />
+      <workItem from="1615727117512" duration="1540000" />
+      <workItem from="1615818879949" duration="8957000" />
+      <workItem from="1615904156049" duration="7097000" />
+      <workItem from="1616215509219" duration="6964000" />
+      <workItem from="1616307884714" duration="4337000" />
+      <workItem from="1616335875446" duration="1442000" />
+      <workItem from="1616417469065" duration="814000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="349" y="130" key="RollbackChangesDialog" timestamp="1615905043185">
+      <screen x="0" y="25" width="1440" height="792" />
+    </state>
+    <state x="349" y="130" key="RollbackChangesDialog/0.25.1440.792@0.25.1440.792" timestamp="1615905043185" />
+    <state x="349" y="132" key="RollbackChangesDialog/0.25.1440.804@0.25.1440.804" timestamp="1615559958800" />
+    <state x="458" y="56" key="SettingsEditor" timestamp="1616311260521">
+      <screen x="0" y="25" width="1440" height="794" />
+    </state>
+    <state x="458" y="56" key="SettingsEditor/0.25.1440.792@0.25.1440.792" timestamp="1616307912183" />
+    <state x="458" y="56" key="SettingsEditor/0.25.1440.794@0.25.1440.794" timestamp="1616311260521" />
+    <state x="458" y="57" key="SettingsEditor/0.25.1440.801@0.25.1440.801" timestamp="1615556293677" />
+    <state x="458" y="57" key="SettingsEditor/0.25.1440.809@0.25.1440.809" timestamp="1615614475757" />
+    <state x="458" y="57" key="SettingsEditor/0.25.1440.813@0.25.1440.813" timestamp="1615567203750" />
+    <state x="555" y="179" width="605" height="490" key="find.popup" timestamp="1616417741286">
+      <screen x="0" y="25" width="1440" height="792" />
+    </state>
+    <state x="555" y="179" width="605" height="490" key="find.popup/0.25.1440.792@0.25.1440.792" timestamp="1616417741286" />
+    <state x="555" y="181" width="605" height="490" key="find.popup/0.25.1440.801@0.25.1440.801" timestamp="1615738782206" />
+    <state x="555" y="182" width="605" height="490" key="find.popup/0.25.1440.805@0.25.1440.805" timestamp="1615563136526" />
+    <state x="555" y="184" width="605" height="496" key="find.popup/0.25.1440.814@0.25.1440.814" timestamp="1615630948693" />
+    <state x="745" y="155" width="670" height="664" key="search.everywhere.popup" timestamp="1615907221872">
+      <screen x="0" y="25" width="1440" height="794" />
+    </state>
+    <state x="745" y="155" width="670" height="662" key="search.everywhere.popup/0.25.1440.792@0.25.1440.792" timestamp="1615904738668" />
+    <state x="745" y="155" width="670" height="664" key="search.everywhere.popup/0.25.1440.794@0.25.1440.794" timestamp="1615907221872" />
+    <state x="745" y="158" width="670" height="676" key="search.everywhere.popup/0.25.1440.809@0.25.1440.809" timestamp="1615618046330" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/RootScreen.tsx</url>
+          <line>2</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/Fashion/Authentication/Onboarding/Slide.tsx</url>
+          <line>23</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
