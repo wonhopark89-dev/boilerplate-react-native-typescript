@@ -1,6 +1,7 @@
 import React, {useRef, useState} from 'react';
 import {FlatList, Image, KeyboardAvoidingView, TextInput, TouchableOpacity, View} from 'react-native';
 import styled from 'styled-components/native';
+import {DrawerContentComponentProps} from '@react-navigation/drawer';
 
 const BACKWARD_ARROW = {uri: 'https://musicoding.com/content/images/apps/backward_arrow_icon.png', width: 16, height: 16};
 const FORWARD_ARROW = {uri: 'https://musicoding.com/content/images/apps/forward_arrow_icon.png', width: 16, height: 16};
@@ -36,10 +37,13 @@ const Text = styled.Text<TextProps>`
   font-weight: ${(props) => (props.bold ? 'bold' : 'normal')};
 `;
 
-const NavBar = () => {
+const NavBar = ({navigation}: DrawerContentComponentProps) => {
   return (
     <NavBarView>
-      <Image source={BACKWARD_ARROW} />
+      <TouchableOpacity onPress={() => navigation.toggleDrawer()}>
+        <Image source={BACKWARD_ARROW} />
+      </TouchableOpacity>
+
       <Text bold>Winn</Text>
       <Text />
     </NavBarView>
@@ -92,7 +96,7 @@ interface MessagingProps {
   avatar: AvatarType;
 }
 
-const MessagingOption = () => {
+const MessagingOption = ({navigation, ...rest}: DrawerContentComponentProps) => {
   const flatListRef = useRef<FlatList>(null);
   const [msg, setMsg] = useState('');
   const [msgList, setMsgList] = useState<MessagingProps[]>([
@@ -179,7 +183,7 @@ const MessagingOption = () => {
 
   return (
     <Container>
-      <NavBar />
+      <NavBar navigation={navigation} {...rest} />
       <KeyboardAvoidingView behavior={'padding'} style={{flex: 1}}>
         <FlatList
           data={msgList}

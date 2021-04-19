@@ -1,6 +1,7 @@
 import React from 'react';
-import {Image, ScrollView, View} from 'react-native';
+import {Image, ScrollView, TouchableOpacity, View} from 'react-native';
 import styled from 'styled-components/native';
+import {DrawerContentComponentProps} from '@react-navigation/drawer';
 
 const MENU = {uri: 'https://musicoding.com/content/images/apps/menu_icon.png', width: 16, height: 16};
 const MORE = {uri: 'https://musicoding.com/content/images/apps/more_icon.png', width: 3, height: 16};
@@ -95,20 +96,22 @@ const Card = () => {
   );
 };
 
-const NavBar = () => {
+const NavBar = ({navigation}: DrawerContentComponentProps) => {
   return (
     <NavBarView>
-      <Image source={MENU} />
+      <TouchableOpacity onPress={() => navigation.toggleDrawer()}>
+        <Image source={MENU} />
+      </TouchableOpacity>
       <Text bold>PROFILE</Text>
       <Image source={MORE} />
     </NavBarView>
   );
 };
 
-const ProfileOption = () => {
+const ProfileOption = ({navigation, ...rest}: DrawerContentComponentProps) => {
   return (
     <Container>
-      <NavBar />
+      <NavBar {...{navigation}} {...rest} />
       <ScrollView contentContainerStyle={{alignItems: 'center'}}>
         <Image source={AVATAR} />
         <Text size={20} bold style={{marginTop: 10}}>

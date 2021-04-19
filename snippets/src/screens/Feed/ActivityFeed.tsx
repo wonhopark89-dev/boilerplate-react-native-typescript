@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
-import {FlatList, StatusBar, View} from 'react-native';
+import {FlatList, StatusBar, TouchableOpacity, View} from 'react-native';
 import styled from 'styled-components/native';
+import {DrawerContentComponentProps} from '@react-navigation/drawer';
 
 interface FeedProps {
   id: number;
@@ -100,7 +101,7 @@ const Share = styled.Text`
   font-weight: bold;
 `;
 
-const ActivityFeed = () => {
+const ActivityFeed = ({navigation}: DrawerContentComponentProps) => {
   const [data, setData] = useState<FeedProps[]>(
     new Array(5).fill({
       userName: 'Name Surname',
@@ -153,7 +154,9 @@ const ActivityFeed = () => {
     <Container>
       <StatusBar hidden />
       <NavBar>
-        <Icon source={{uri: 'https://musicoding.com/content/images/apps/menu_icon.png'}} />
+        <TouchableOpacity onPress={() => navigation.toggleDrawer()}>
+          <Icon source={{uri: 'https://musicoding.com/content/images/apps/menu_icon.png'}} />
+        </TouchableOpacity>
         <Title>{`ACTIVITY FEED`}</Title>
         <Icon source={{uri: 'https://musicoding.com/content/images/apps/search_icon.png'}} />
       </NavBar>
